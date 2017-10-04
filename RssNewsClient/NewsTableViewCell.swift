@@ -9,10 +9,17 @@
 import UIKit
 
 class NewsTableViewCell: UITableViewCell {
-    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var textTitleLabel: UILabel!
+    
+    weak var viewModel : NewsTableCellViewModel! {
+        didSet{
+            textTitleLabel.text = viewModel.titleLabel
+            
+        }
+    }
 
     override func awakeFromNib() {
-        @IBOutlet weak var timeLabel: UILabel!
         super.awakeFromNib()
         // Initialization code
     }
