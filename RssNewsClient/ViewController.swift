@@ -10,12 +10,18 @@ import UIKit
 import FeedKit
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
+    
+    var shownNews = [RSSFeedItem]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        tableView.dataSource = self
         let feedUrl = URL(string:  "https://vc.ru/rss/all")
         
         let parser = FeedParser(URL: feedUrl!)
@@ -23,18 +29,29 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 switch result{
                     case let .rss(feed): print("rss")
-                    case let .json(feed): print("json")
-                    case let .failure(error): print("error")
+                                         self.shownNews = feed.items!
+                                         print(self.shownNews.count)
+                                         self.tableView.reloadData()
+                    
+                    //case let .json(feed): print("json")
+                    //case let .failure(error): print("error")
                     default:
                           print("fatal error")
                 }
             }
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return shownNews.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "newsCell", for: indexPath)
+        cell.textLabel?.text = shownNews[indexPath.row].title
+        print(shownNews[indexPath.row].title)
+        
+        return cell
     }
 
 
