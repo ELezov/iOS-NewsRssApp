@@ -5,6 +5,7 @@ class NewsTableViewModel{
     weak var newsManager: NewsManager!
     fileprivate var cellsArray = [NewsTableCellViewModel]()
     fileprivate var newsArray: [RSSFeedItem]!
+    var detailsViewModel: DetailNewsViewModel!
     var error: String?
     
     func updateDate(_ completion:@escaping () -> Void){
@@ -25,6 +26,11 @@ class NewsTableViewModel{
     func cellViewModel(_ index: Int) -> NewsTableCellViewModel? {
         guard index < cellsArray.count else { return nil }
         return cellsArray[index]
+    }
+    
+    func getDetailsViewModel(_ index:Int) -> DetailNewsViewModel {
+        self.detailsViewModel = DetailNewsViewModel(rssFeedItem: newsArray[index])
+        return self.detailsViewModel
     }
     
     required init(newsManager: NewsManager){

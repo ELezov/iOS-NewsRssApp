@@ -1,11 +1,3 @@
-//
-//  NewsTableViewCell.swift
-//  RssNewsClient
-//
-//  Created by Nikolay on 04.10.17.
-//  Copyright © 2017 Eugene Lezov. All rights reserved.
-//
-
 import UIKit
 
 class NewsTableViewCell: UITableViewCell {
