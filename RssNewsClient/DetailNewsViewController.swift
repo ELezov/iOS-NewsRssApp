@@ -12,7 +12,9 @@ class DetailNewsViewController: UIViewController {
         super.viewDidLoad()
         
         self.titleTextLabel.text = viewModel.title
-        self.descriptionTextLabel.text = viewModel.description
+        //self.descriptionTextLabel.text = viewModel.description
+        //print("Detail  ", viewModel.title, viewModel.description)
+        self.descriptionTextLabel.from(html: viewModel.description)
 
         // Do any additional setup after loading the view.
     }
@@ -32,5 +34,18 @@ class DetailNewsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+}
 
+extension UILabel {
+    func from(html: String) {
+        if let htmlData = html.data(using: String.Encoding.unicode) {
+            do {
+                self.attributedText = try NSAttributedString(data: htmlData,
+                                                             options: [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType],
+                                                             documentAttributes: nil)
+            } catch let e as NSError {
+                print("Couldn't parse \(html): \(e.localizedDescription)")
+            }
+        }
+    }
 }

@@ -4,16 +4,16 @@ import FeedKit
 class NewsTableViewModel{
     weak var newsManager: NewsManager!
     fileprivate var cellsArray = [NewsTableCellViewModel]()
-    fileprivate var newsArray: [RSSFeedItem]!
+    fileprivate var newsArray: [News]!
     var detailsViewModel: DetailNewsViewModel!
     var error: String?
     
     func updateDate(_ completion:@escaping () -> Void){
         cellsArray.removeAll()
-        newsManager.getNews{ (newsArray) -> Void in
+        newsManager.getNewsFromVC { (newsArray) -> Void in
             self.newsArray = newsArray
             for news in newsArray!{
-                self.cellsArray.append(NewsTableCellViewModel(rssItemFeed: news))
+                self.cellsArray.append(NewsTableCellViewModel(news: news))
             }
             completion()
         }
@@ -29,7 +29,7 @@ class NewsTableViewModel{
     }
     
     func getDetailsViewModel(_ index:Int) -> DetailNewsViewModel {
-        self.detailsViewModel = DetailNewsViewModel(rssFeedItem: newsArray[index])
+        self.detailsViewModel = DetailNewsViewModel(news: newsArray[index])
         return self.detailsViewModel
     }
     

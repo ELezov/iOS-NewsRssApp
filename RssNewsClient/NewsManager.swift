@@ -25,7 +25,7 @@ class NewsManager{
     }
     
     func getNewsFromTJ(_ completion:@escaping ([News]?) -> Void){
-        getNews(endpoint: NewsTJEndpoint, completion)
+        getNews(endpoint: NewsTJEndpoint.getNews, completion)
     }
     
     func getNews(endpoint: Endpoint,_ compltetion:@escaping ([News]?) -> Void){

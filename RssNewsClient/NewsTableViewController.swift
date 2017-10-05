@@ -20,14 +20,6 @@ class NewsTableViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let request = Network.shared.request(endpoint: NewsVCEndpoint.getNews) { response in
-            if response.result.isSuccess {
-                print("Size items",response.result.value?.items.count)
-            } else {
-                // Handle error
-            }
-        }
-        
         tableView.dataSource = self
         let newsManager = NewsManager()
         let newsTableViewModel = NewsTableViewModel(newsManager: newsManager)
