@@ -4,15 +4,10 @@ import FeedKit
 
 class NewsTableViewController: UIViewController, UITableViewDataSource {
 
-    var indicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
-    var viewModel: NewsTableViewModel!{
+      var viewModel: NewsTableViewModel!{
         didSet{
-            indicator.startAnimating()
-            indicator.backgroundColor = UIColor.white
             viewModel.updateDate{
                 self.tableView.reloadData()
-                self.indicator.stopAnimating()
-                self.indicator.hidesWhenStopped = true
             }
         }
     }
@@ -25,6 +20,14 @@ class NewsTableViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let request = Network.shared.request(endpoint: NewsVCEndpoint.getNews) { response in
+            if response.result.isSuccess {
+                print("Size items",response.result.value?.items.count)
+            } else {
+                // Handle error
+            }
+        }
+        
         tableView.dataSource = self
         let newsManager = NewsManager()
         let newsTableViewModel = NewsTableViewModel(newsManager: newsManager)
@@ -66,11 +69,6 @@ class NewsTableViewController: UIViewController, UITableViewDataSource {
         }
     }
     
-    func activityIndicator() {
-        self.indicator.center = self.view.center
-        self.view.addSubview(self.indicator)
-        self.indicator.bringSubview(toFront: self.view)
-    }
 }
 
 

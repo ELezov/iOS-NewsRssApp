@@ -21,6 +21,9 @@
 		95DC88A21F85191C004D5C70 /* NewsTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC88A11F85191C004D5C70 /* NewsTableCellViewModel.swift */; };
 		95DC88A41F851A13004D5C70 /* NewsTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC88A31F851A13004D5C70 /* NewsTableViewModel.swift */; };
 		95DC88A91F851C91004D5C70 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC88A81F851C91004D5C70 /* NewsManager.swift */; };
+		95EB906B1F862D5C00FEFA58 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB906A1F862D5C00FEFA58 /* Endpoint.swift */; };
+		95EB906D1F86352700FEFA58 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB906C1F86352700FEFA58 /* NewsEndpoint.swift */; };
+		95EB906F1F8636EA00FEFA58 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB906E1F8636EA00FEFA58 /* Network.swift */; };
 		D9204E4C60D34402702603B8 /* Pods_RssNewsClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E6C7196EBA28827BCFD1EC /* Pods_RssNewsClientTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		95DC88A11F85191C004D5C70 /* NewsTableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableCellViewModel.swift; sourceTree = "<group>"; };
 		95DC88A31F851A13004D5C70 /* NewsTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewModel.swift; sourceTree = "<group>"; };
 		95DC88A81F851C91004D5C70 /* NewsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		95EB906A1F862D5C00FEFA58 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		95EB906C1F86352700FEFA58 /* NewsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
+		95EB906E1F8636EA00FEFA58 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E3E6C7196EBA28827BCFD1EC /* Pods_RssNewsClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RssNewsClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF603D16406E5EB4D354F3 /* Pods-RssNewsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RssNewsClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-RssNewsClient/Pods-RssNewsClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,7 @@
 		9587A17F1F83BA2800CD1568 /* RssNewsClient */ = {
 			isa = PBXGroup;
 			children = (
+				95EB90691F862D0A00FEFA58 /* Network */,
 				95DC88A71F851BB1004D5C70 /* Resources */,
 				95DC88A61F851B92004D5C70 /* View */,
 				95DC88A51F851B7D004D5C70 /* ViewModel */,
@@ -159,6 +166,16 @@
 				9587A18C1F83BA2800CD1568 /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		95EB90691F862D0A00FEFA58 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95EB906A1F862D5C00FEFA58 /* Endpoint.swift */,
+				95EB906C1F86352700FEFA58 /* NewsEndpoint.swift */,
+				95EB906E1F8636EA00FEFA58 /* Network.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 		9BDDC3CFFEEC8CB4900A185E /* Frameworks */ = {
@@ -391,8 +408,11 @@
 				9580B4781F842EB6004A8816 /* News.swift in Sources */,
 				95DC88A41F851A13004D5C70 /* NewsTableViewModel.swift in Sources */,
 				9587A1831F83BA2800CD1568 /* NewsTableViewController.swift in Sources */,
+				95EB906F1F8636EA00FEFA58 /* Network.swift in Sources */,
+				95EB906D1F86352700FEFA58 /* NewsEndpoint.swift in Sources */,
 				95DC88A01F85182E004D5C70 /* NewsTableViewCell.swift in Sources */,
 				95DC88A91F851C91004D5C70 /* NewsManager.swift in Sources */,
+				95EB906B1F862D5C00FEFA58 /* Endpoint.swift in Sources */,
 				9587A1811F83BA2800CD1568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
