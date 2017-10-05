@@ -123,7 +123,6 @@
 				95DC88A51F851B7D004D5C70 /* ViewModel */,
 				9580B4751F842E9D004A8816 /* model */,
 				9587A1801F83BA2800CD1568 /* AppDelegate.swift */,
-				95DC88A81F851C91004D5C70 /* NewsManager.swift */,
 			);
 			path = RssNewsClient;
 			sourceTree = "<group>";
@@ -171,6 +170,7 @@
 		95EB90691F862D0A00FEFA58 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				95DC88A81F851C91004D5C70 /* NewsManager.swift */,
 				95EB906A1F862D5C00FEFA58 /* Endpoint.swift */,
 				95EB906C1F86352700FEFA58 /* NewsEndpoint.swift */,
 				95EB906E1F8636EA00FEFA58 /* Network.swift */,

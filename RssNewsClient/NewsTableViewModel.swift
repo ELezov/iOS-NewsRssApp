@@ -1,5 +1,4 @@
 import Foundation
-import FeedKit
 
 class NewsTableViewModel{
     weak var newsManager: NewsManager!

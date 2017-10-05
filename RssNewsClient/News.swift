@@ -1,5 +1,4 @@
 import Foundation
-import FeedKit
 
 class News {
     var title: String!

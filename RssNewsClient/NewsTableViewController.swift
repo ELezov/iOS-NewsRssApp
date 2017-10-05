@@ -1,5 +1,4 @@
 import UIKit
-import FeedKit
 
 
 class NewsTableViewController: UIViewController, UITableViewDataSource {

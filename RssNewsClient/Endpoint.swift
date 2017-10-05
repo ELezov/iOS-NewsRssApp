@@ -17,7 +17,7 @@ extension Endpoint {
         return method == .get ? URLEncoding.default : JSONEncoding.default
     }
     
-    var fullUrl: String{
+    var fullURL: String{
         return baseURL + path
     }
     

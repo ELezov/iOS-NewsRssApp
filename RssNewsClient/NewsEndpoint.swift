@@ -14,11 +14,6 @@ extension NewsVCEndpoint: Endpoint{
         return ["Authorization" : ""]
     }
 
-    
-    var fullURL: String {
-        return baseURL + path
-    }
-    
     var baseURL: String {
         switch self {
         case .getNews: return "https://vc.ru/"
@@ -42,10 +37,6 @@ extension NewsVCEndpoint: Endpoint{
 extension NewsTJEndpoint: Endpoint{
     internal var headers: HTTPHeaders {
         return ["Authorizaton" : ""]
-    }
-
-    internal var fullURL: String {
-        return baseURL + path
     }
 
     var method: HTTPMethod{

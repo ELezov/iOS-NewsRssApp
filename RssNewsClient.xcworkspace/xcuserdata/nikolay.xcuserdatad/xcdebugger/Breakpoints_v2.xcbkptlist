@@ -138,61 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528818203.285476"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6"
-            endingLineNumber = "6"
-            landmarkName = "getNews(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528829782.568829"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "getNews(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsManager.getNews ((Swift.Optional&lt;Swift.Array&lt;FeedKit.RSSFeedItem&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsManager.swift"
-                  timestampString = "528820716.769494"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "350">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsManager.(getNews ((Swift.Optional&lt;Swift.Array&lt;FeedKit.RSSFeedItem&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsManager.swift"
-                  timestampString = "528820716.770767"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "313">
-               </Location>
-            </Locations>
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "NewsManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -202,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -281,11 +233,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "updateDate(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -297,7 +249,103 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "numberOfNews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "cellViewModel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "cellViewModel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "cellViewModel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "NewsTableViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "cellViewModel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RssNewsClient/NewsTableViewModel.swift"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -313,171 +361,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "cellViewModel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "cellViewModel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "cellViewModel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "NewsTableViewModel"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "cellViewModel(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "numberOfNews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528825349.533069"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "getNews(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsManager.(getNews ((Swift.Optional&lt;Swift.Array&lt;FeedKit.RSSFeedItem&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsManager.swift"
-                  timestampString = "528902013.532402"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "89">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsManager.(getNews ((Swift.Optional&lt;Swift.Array&lt;FeedKit.RSSFeedItem&gt;&gt;) -&gt; ()) -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsManager.swift"
-                  timestampString = "528902013.533619"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528825349.533069"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
             endingLineNumber = "12"
-            landmarkName = "getNews(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
             landmarkName = "updateDate(_:)"
             landmarkType = "7">
             <Locations>
@@ -521,11 +409,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
             landmarkName = "updateDate(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -537,28 +425,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewModel.swift"
-            timestampString = "528833048.01078"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "init(newsManager:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528829782.568829"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "getNews(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -569,11 +441,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
             <Locations>
@@ -647,11 +519,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -663,11 +535,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79">
+            startingLineNumber = "78"
+            endingLineNumber = "78">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -677,11 +549,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81">
+            startingLineNumber = "80"
+            endingLineNumber = "80">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -691,11 +563,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77">
+            startingLineNumber = "76"
+            endingLineNumber = "76">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -705,11 +577,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -721,11 +593,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -737,11 +609,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
             <Locations>
@@ -815,11 +687,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -878,11 +750,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -941,28 +813,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528831221.489837"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "getNews(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -973,11 +829,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528834900.272294"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "NewsTableViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -989,11 +845,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528835107.076356"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7"
-            endingLineNumber = "7"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
             landmarkName = "NewsTableViewController"
             landmarkType = "3">
             <Locations>
@@ -1085,11 +941,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsEndpoint.swift"
-            timestampString = "528900195.135051"
+            timestampString = "528921386.623231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "NewsVCEndpoint"
             landmarkType = "4">
          </BreakpointContent>
@@ -1101,11 +957,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewController.swift"
-            timestampString = "528904841.284055"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -1149,11 +1005,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsEndpoint.swift"
-            timestampString = "528900195.135051"
+            timestampString = "528921386.623231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "NewsTJEndpoint"
             landmarkType = "4">
          </BreakpointContent>
@@ -1165,11 +1021,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsEndpoint.swift"
-            timestampString = "528900077.269192"
+            timestampString = "528921386.623231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "NewsTJEndpoint"
             landmarkType = "4">
          </BreakpointContent>
@@ -1181,11 +1037,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528903007.722027"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
             landmarkName = "getNewsFromVC(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1197,11 +1053,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsManager.swift"
-            timestampString = "528901058.398635"
+            timestampString = "528921895.942601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
             landmarkName = "getNewsFromVC(_:)"
             landmarkType = "7">
          </BreakpointContent>
