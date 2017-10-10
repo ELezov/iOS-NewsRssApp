@@ -7,7 +7,7 @@ class NewsTableViewModel{
     var detailsViewModel: DetailNewsViewModel!
     var error: String?
     
-    func updateDate(_ completion:@escaping () -> Void){
+    func updateData(_ completion:@escaping () -> Void){
         cellsArray.removeAll()
         newsManager.getNewsFromVC { (newsArray) -> Void in
             self.newsArray = newsArray

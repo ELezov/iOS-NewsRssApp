@@ -5,7 +5,7 @@ class NewsTableViewController: UIViewController, UITableViewDataSource {
 
       var viewModel: NewsTableViewModel!{
         didSet{
-            viewModel.updateDate{
+            viewModel.updateData {
                 self.tableView.reloadData()
             }
         }

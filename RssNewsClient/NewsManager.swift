@@ -17,7 +17,7 @@ class NewsManager{
                 let itemsArrayRSS = response.result.value?.items
                 // TODO: Существует ли более элегантный способ?
                 for item in itemsArrayRSS!{
-                    let news = News(title: item.title!, description: item.description)
+                    let news = News(title: item.title!, description: item.itemDescription!, date: item.pubDate!, url: URL(string: item.link!)!)
                     newsArray.append(news)
                 }
                 compltetion(newsArray)
@@ -27,5 +27,7 @@ class NewsManager{
         }
 
     }
+    
+    
     
 }

@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RssNewsClient/NewsTableViewCell.swift"
-            timestampString = "528833719.492946"
+            timestampString = "529342265.999874"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "NewsTableViewCell"
             landmarkType = "3">
          </BreakpointContent>
@@ -238,7 +238,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "updateDate(_:)"
+            landmarkName = "updateData(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -366,7 +366,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
             endingLineNumber = "12"
-            landmarkName = "updateDate(_:)"
+            landmarkName = "updateData(_:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -414,7 +414,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
             endingLineNumber = "11"
-            landmarkName = "updateDate(_:)"
+            landmarkName = "updateData(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -861,11 +861,11 @@
                   moduleName = "RssNewsClient"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsTableViewController.swift"
-                  timestampString = "528902013.54643"
+                  timestampString = "529341519.89368"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
                   offsetFromSymbolStart = "93">
                </Location>
                <Location
@@ -876,11 +876,11 @@
                   moduleName = "RssNewsClient"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsTableViewController.swift"
-                  timestampString = "528902013.547716"
+                  timestampString = "529341519.894971"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
                   offsetFromSymbolStart = "47">
                </Location>
             </Locations>
@@ -964,38 +964,6 @@
             endingLineNumber = "21"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsTableViewController.viewDidLoad () -&gt; ()"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsTableViewController.swift"
-                  timestampString = "528902013.558615"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "96">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RssNewsClient.NewsTableViewController.(viewDidLoad () -&gt; ()).(closure #1)"
-                  moduleName = "RssNewsClient"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikolay/Desktop/iOs%20Swift/RssNewsClient/RssNewsClient/NewsTableViewController.swift"
-                  timestampString = "528902013.560077"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "145">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

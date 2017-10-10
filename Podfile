@@ -6,6 +6,7 @@ target 'RssNewsClient' do
   use_frameworks!
   pod 'Alamofire'
   pod 'AlamofireRSSParser'
+  pod 'KingFisher'
     # Pods for RssNewsClient
 
   target 'RssNewsClientTests' do

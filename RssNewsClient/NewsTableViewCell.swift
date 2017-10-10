@@ -4,9 +4,12 @@ class NewsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var textTitleLabel: UILabel!
     
+    @IBOutlet weak var textPubDateLabel: UILabel!
+    
     weak var viewModel : NewsTableCellViewModel! {
         didSet{
             textTitleLabel.text = viewModel.titleLabel
+            textPubDateLabel.text = viewModel.pubDateLabel
             
         }
     }

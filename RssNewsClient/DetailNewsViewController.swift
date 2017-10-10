@@ -6,15 +6,22 @@ class DetailNewsViewController: UIViewController {
     
     @IBOutlet weak var descriptionTextLabel: UILabel!
     
+    @IBOutlet weak var urlButton: UIButton!
+    
     var viewModel: DetailNewsViewModel!
 
+    @IBAction func urlButtonAction(_ sender: UIButton) {
+        
+        UIApplication.shared.open(viewModel.url, options: [:], completionHandler: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.titleTextLabel.text = viewModel.title
-        //self.descriptionTextLabel.text = viewModel.description
-        //print("Detail  ", viewModel.title, viewModel.description)
-        self.descriptionTextLabel.from(html: viewModel.description)
+          self.descriptionTextLabel.text = viewModel.description
+            //self.descriptionTextLabel.from(html: viewModel.description)
+            self.urlButton.titleLabel?.text = "Открыть новость"
+            self.urlButton.setTitle("Открыть новость", for: .normal)
 
         // Do any additional setup after loading the view.
     }
